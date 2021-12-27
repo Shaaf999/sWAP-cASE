@@ -1,0 +1,21 @@
+def swap_case(s):
+    return(s.swapcase())  #swap case function used to chnage lowercase letters to upper letters and vice versa
+
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
+    
+    
+    
+    
+    
+#  second method using logic    
+ns=''
+for letter in input():
+   if letter.isupper():
+      ns+=letter.islower()
+   else:
+      ns+=letter.isupper()
+      
+print(ns)      
